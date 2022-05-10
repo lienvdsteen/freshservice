@@ -36,7 +36,7 @@ module Freshservice
         params.to_json,
         headers
       )
-      p response
+
       response.code
     end
 
