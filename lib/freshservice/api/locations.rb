@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 module Freshservice
-  class OnboardingRequests < API
+  class Locations < API
     def self.all(params = {})
       get("locations", params)
     end
