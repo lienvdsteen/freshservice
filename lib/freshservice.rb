@@ -6,6 +6,7 @@ require_relative "freshservice/api"
 require_relative "freshservice/api/onboarding_requests"
 require_relative "freshservice/api/requesters"
 require_relative "freshservice/api/locations"
+require_relative "freshservice/api/service_requests"
 
 module Freshservice
   extend Configuration
