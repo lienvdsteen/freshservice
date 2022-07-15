@@ -3,7 +3,7 @@
 module Freshservice
   class Requesters < API
     def self.all(params = { per_page: 100 })
-      get("requesters", params)
+      get("requesters", params)['requesters']
     end
 
     def self.find(id)
