@@ -36,8 +36,7 @@ module Freshservice
         params.to_json,
         headers
       )
-
-      response.code
+      response
     end
 
     def self.delete(endpoint)
