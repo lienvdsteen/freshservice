@@ -3,7 +3,7 @@
 module Freshservice
   class Locations < API
     def self.all(params = {})
-      paginated_get("locations", params)
+      get("locations", params)
     end
 
     def self.find(id)
